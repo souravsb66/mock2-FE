@@ -1,3 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
 td {
     border: 1px solid gray;
     padding: 0.5rem 0.8rem;
