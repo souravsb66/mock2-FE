@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="./index.html">User</a>
+        <a href="./html/admin.html">Admin</a>
+    </nav>
+    <main>
+        <h2>User Registration Form</h2>
+        <form class="user-form">
+            <div>
+                <label for="">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="">Profile Picture</label>
+                <input type="text" id="profile-img">
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div>
+                <label for="">Profession</label>
+                <select name="" id="profession">
+                    <option value="">Select profession</option>
+                    <option value="student">Student</option>
+                    <option value="web-developer">Web Developer</option>
+                    <option value="graphic-designer">Graphic Designer</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Skills</label>
+                <input type="text" id="skills">
+            </div>
+            <div>
+                <label for="">Hourly Rate</label>
+                <input type="number" id="rate">
+            </div>
+            
+            <input type="submit">
+        </form>
+        <div class="message-div">
+            <span class="message"></span>
+        </div>
+    </main>
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
